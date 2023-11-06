@@ -13,7 +13,7 @@
         android:id="@+id/girl"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/girl"
+        app:srcCompat="@drawable/hipman"
         app:layout_constraintStart_toStartOf="parent"
         android:scaleType="centerCrop"
         app:layout_constraintTop_toTopOf="parent" />
@@ -30,7 +30,7 @@
         />
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/til1"
+        android:id="@+id/usuario"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="48dp"
@@ -49,12 +49,12 @@
 
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/user"
+        android:id="@+id/pass"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="@id/guideright"
         app:layout_constraintStart_toStartOf="@id/guideleft"
-        app:layout_constraintTop_toBottomOf="@id/til1"
+        app:layout_constraintTop_toBottomOf="@id/tel"
         app:passwordToggleEnabled="true"
         app:startIconDrawable="@drawable/candado">
 
@@ -66,6 +66,46 @@
             android:background="@color/white"
             android:hint="Password"
             android:inputType="textPassword"
+            android:maxLines="1" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@id/guideright"
+        app:layout_constraintStart_toStartOf="@id/guideleft"
+        app:layout_constraintTop_toBottomOf="@id/gmail"
+        app:startIconDrawable="@drawable/telefono">
+
+        <EditText
+            android:id="@+id/telefon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.6"
+            android:background="@color/white"
+            android:hint="Telefono"
+            android:inputType="phone"
+            android:maxLines="1" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/gmail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@id/guideright"
+        app:layout_constraintStart_toStartOf="@id/guideleft"
+        app:layout_constraintTop_toBottomOf="@id/usuario"
+        app:startIconDrawable="@drawable/gmail">
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.6"
+            android:background="@color/white"
+            android:hint="Gmail"
+            android:inputType="textEmailAddress"
             android:maxLines="1" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -84,27 +124,17 @@
         app:layout_constraintGuide_percent="0.80" />
 
     <Button
-        android:id="@+id/LOGIN"
-        style="@style/ButonFlat"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:onClick="openMain"
-        android:text="LOGIN"
-        app:layout_constraintBottom_toTopOf="@+id/SIGNUP"
-        app:layout_constraintEnd_toStartOf="@+id/guideright"
-        app:layout_constraintStart_toStartOf="@+id/guideleft"
-        app:layout_constraintTop_toBottomOf="@+id/user" />
-
-    <Button
         android:id="@+id/SIGNUP"
         style="@style/butonoutline"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:onClick="openSignup"
+        android:layout_marginTop="47dp"
+
+        android:onClick="openMain"
         android:text="SIGNUP"
         app:layout_constraintEnd_toStartOf="@+id/guideright"
         app:layout_constraintStart_toStartOf="@+id/guideleft"
-        app:layout_constraintTop_toBottomOf="@+id/LOGIN" />
+        app:layout_constraintTop_toBottomOf="@+id/pass" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
