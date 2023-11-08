@@ -20,8 +20,8 @@
 
     <ImageView
         android:id="@+id/logo"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
         app:srcCompat="@drawable/rayo"
         app:layout_constraintStart_toStartOf="@id/guideleft"
         app:layout_constraintEnd_toEndOf="@id/guideright"
