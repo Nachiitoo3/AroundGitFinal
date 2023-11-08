@@ -11,6 +11,12 @@ En esta captura se aprecia el la pantalla del register. Contiene dos guias situa
 
 ![register activity](img/register.PNG)
 
+Tenemos creada las pantallas en su versiona apaisada.
 
+![land register](img/landscaperegister.PNG)
+
+![land login](img/landscapelogin.PNG)
+
+Dispone de variedad de colores en los estilos light y dark.
 
 

@@ -9,4 +9,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="fucsia_200">#F12369</color>
     <color name="fucsia_700">#4D0A20</color>
+    <color name="dark_primario">#151E21</color>
+    <color name="dark_variante">##121212</color>
 </resources>
