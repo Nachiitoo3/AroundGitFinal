@@ -9,14 +9,15 @@ En este caso vemos como se aprecia la pantalla del login. Las dos pantallas sigu
 
 En esta captura se aprecia el la pantalla del register. Contiene dos guias situadas a cada extremo.
 
-![register activity](img/register.PNG)
+![register activity](img/register.png)
 
 Tenemos creada las pantallas en su versiona apaisada.
 
-![land register](img/landscaperegister.PNG)
+![land register](img/landscaperegister.png)
 
 
-
-![land login](img/landscapelogin.PNG)
+![land login](img/landscapelogin.png)
 
 Dispone de variedad de colores en los estilos light y dark.
+
+Estas capturas son las versiones anteriores a la aplicación.

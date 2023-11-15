@@ -7,6 +7,9 @@ import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
+
 import android.widget.ImageView;
 import android.widget.Space;
 
@@ -19,9 +22,13 @@ public class Splash extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
+        ImageView rayo = findViewById(R.id.logo);
 
-
+        Animation animation = AnimationUtils.loadAnimation(this, R.anim.blink);
+        rayo.startAnimation(animation);
         ImageView mSplash = findViewById(R.id.fondo);
+
+
         Glide.with(this)
                 .load(R.drawable.fondo_mar)
                 .transition(DrawableTransitionOptions.withCrossFade(2000))
