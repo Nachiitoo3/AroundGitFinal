@@ -11,7 +11,6 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 
 import android.widget.ImageView;
-import android.widget.Space;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;
@@ -39,7 +38,7 @@ public class Splash extends AppCompatActivity {
 
     }
     public void openSplash(View v){
-        Intent intent = new Intent(Splash.this,MainActivity.class);
+        Intent intent = new Intent(Splash.this, Main.class);
         startActivity(intent);
     }
     private void openApp(){

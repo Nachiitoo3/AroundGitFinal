@@ -4,7 +4,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.graphics.drawable.ColorDrawable;
-import android.media.Image;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
@@ -33,7 +32,7 @@ public class Login extends AppCompatActivity {
         startActivity(intent);
     }
     public void openMain(View v){
-        Intent intent = new Intent(Login.this,MainActivity.class);
+        Intent intent = new Intent(Login.this, Main.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
         startActivity(intent);
