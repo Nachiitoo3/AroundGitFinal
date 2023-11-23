@@ -32,6 +32,7 @@ Una vez valorada la App saldra una mensaje con la puntuación dada.
 En un futuro utilizaremos el boton introducido en la parte inferior de la pantalla, el cual nos mostrara en un popUp la barra de valoracion.
 
 También tenemos añadida una vista en la cual tiene introducido un SwipeRefresh, el cual cada vez que recargamos la página nos saldra una imagen distina.
+
 ![land refresh](img/refresh.png)
 
 La aplicación sigue en desarrollo, iremos actualizando cada semana.
