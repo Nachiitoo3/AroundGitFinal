@@ -35,4 +35,5 @@ También tenemos añadida una vista en la cual tiene introducido un SwipeRefresh
 
 ![land refresh](img/refresh.png)
 
+Hemos realizado mi compañera Carlota y yo un PullRequest uno a cada uno introduciendo un cambio en su programa.
 La aplicación sigue en desarrollo, iremos actualizando cada semana.
