@@ -36,7 +36,7 @@ También tenemos añadida una vista en la cual tiene introducido un SwipeRefresh
 ![land refresh](img/refresh.png)
 
 Hemos realizado mi compañera Carlota y yo un PullRequest uno a cada uno introduciendo un cambio en su programa.
-En mi caso le he añadido un activity en el que hay incluido una barra de puntuación.
-Y ella incluyó un animacion en mi carpeta anim.
+En mi caso le he [añadido](https://github.com/Nachiitoo3/AroundGitFinal/network) un activity en el que hay incluido una barra de puntuación.
+Y ella [incluyó](https://github.com/CarlotaCordero/NiceStart/network) un animacion en mi carpeta anim.
 
 La aplicación sigue en desarrollo, iremos actualizando cada semana.
