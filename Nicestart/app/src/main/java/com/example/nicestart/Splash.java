@@ -23,7 +23,7 @@ public class Splash extends AppCompatActivity {
         setContentView(R.layout.activity_splash);
         ImageView rayo = findViewById(R.id.logo);
 
-        Animation animation = AnimationUtils.loadAnimation(this, R.anim.blink);
+        Animation animation = AnimationUtils.loadAnimation(this, R.anim.blink2);
         rayo.startAnimation(animation);
         ImageView mSplash = findViewById(R.id.fondo);
 
