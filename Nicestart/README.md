@@ -5,7 +5,7 @@ Ademas estas estan interconectadas entre si y con una vista main.
 
 Cuando iniciamos la aplicación tenemos una vista de splash en la que hemos añadido una animación de tipo blink.
 
-![land splash](img/splash.png)
+![land splash](img/splash.gif)
 
 Una vez haya cargado la aplicación accedemos a la pantalla del login.
 
@@ -36,4 +36,7 @@ También tenemos añadida una vista en la cual tiene introducido un SwipeRefresh
 ![land refresh](img/refresh.png)
 
 Hemos realizado mi compañera Carlota y yo un PullRequest uno a cada uno introduciendo un cambio en su programa.
+En mi caso le he añadido un activity en el que hay incluido una barra de puntuación.
+Y ella incluyó un animacion en mi carpeta anim.
+
 La aplicación sigue en desarrollo, iremos actualizando cada semana.
