@@ -30,9 +30,9 @@ public class Splash extends AppCompatActivity {
 
         Glide.with(this)
                 .load(R.drawable.fondo_mar)
-                .transition(DrawableTransitionOptions.withCrossFade(2000))
+                .transition(DrawableTransitionOptions.withCrossFade(4000))
                 .centerCrop()
-                .placeholder(new ColorDrawable(this.getResources().getColor(R.color.teal_700)))
+                .placeholder(new ColorDrawable(this.getResources().getColor(R.color.black)))
                 .into(mSplash);
         openApp();
 
