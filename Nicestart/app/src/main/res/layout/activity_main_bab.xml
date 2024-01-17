@@ -26,7 +26,7 @@
           android:id="@+id/fab"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/white"
+            android:backgroundTint="@color/black"
             android:src="@drawable/ic_name_password"
             app:fabSize="normal"
             app:layout_anchor="@id/botom_app_bar"
